@@ -38,15 +38,15 @@
   
 </head>
 
-<body style="font-family: 'Lato', sans-serif;">
+<body  style="font-family: 'Lato', sans-serif;">
 
-    <header class="max-w-screen-xl mx-auto mt-10 ">
+    <header class="max-w-screen-xl mx-auto pl-10 lg:pl-0  mt-10 ">
         <nav class=" mb-10 ">
           <div class="navbar bg-[#F85559] rounded-full">
-            <div class="flex items-center flex-row-reverse md:flex-row lg:flex-row  ">
-              <div class=" -mr-30 lg:mr-40 flex items-center">
+            <div class="flex items-center flex-row-reverse md:flex-row-reverse lg:flex-row mr-10 ">
+              <div class="  lg:mr-40 flex items-center">
                 <div class=" hidden lg:flex justify-start">
-                  <ul class="menu menu-horizontal text-white px-1">
+                  <ul class="menu menu-horizontal text-white ">
                     <li><a>Home</a></li>
 
                     <li><a>About us</a></li>
@@ -56,7 +56,7 @@
                 </div>
   
   
-                <div class="dropdown">
+                <div class="dropdown ml-10">
                   <label tabindex="0" class="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                   </label>
@@ -66,6 +66,7 @@
                     <li><a>About us</a></li>
                     <li><a>Shop</a></li>
                     <li><a>All Fruits</a></li>
+                    <li><input type="text"  placeholder="Search here"/></li>
                   </ul>
                 </div>
                 
@@ -76,13 +77,13 @@
                 <h1 class=" text-3xl lg:text-4xl mx-4 text-white font-bold">Fruit Burst</h1>
               </div>
             </div>
-            <!--  -->
+            
 
-            <div class=" hidden md:block mb-5   lg:ml-20">
+            <div class=" hidden lg:block mb-5   lg:ml-22">
              
               <input type="text"  placeholder="Search here" class="input rounded-full  w-full  absolute lg:max-w-xs " />
 
-              <i class=" left-40 relative fa-solid fa-magnifying-glass"></i>
+              <i class=" lg:left-60 mt-4 relative fa-solid fa-magnifying-glass"></i>
             </div>
         
           </div>
@@ -90,7 +91,7 @@
         
     </header>
 
-    <main class="max-w-screen-xl mx-auto">
+    <main class="max-w-screen-xl pl-10 lg:pl-0 mx-auto  ">
       <section class="relative">
         <div class="carousel w-full ">
           <div id="slide1" class="carousel-item relative   	 w-full bg-slider-one bg-blend-multiply	 bg-center bg-cover bg-no-repeat  lg:h-[550px] text-center ">
@@ -190,10 +191,11 @@
         </div>
       </section>
       <!-- Deal section start -->
+      
       <section class="my-20">
       <div class="flex flex-col md:flex-row lg:flex-row my-10">
         <div class="flex-1 mx-10">
-          <h1 class="text-[#121212] text-5xl font-bold mb-5">Deal of the day</h1>
+          <h1 class="text-[#121212] text-3xl lg:text-5xl font-bold mb-5">Deal of the day</h1>
           <p class="mb-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <div class="flex-1 flex justify-center gap-5 mx-10">
@@ -494,8 +496,8 @@
           <p class="mb-10">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
-       <div class="">
-        <div class="flex mb-6">
+       <div class=" px-2 ">
+        <div class="flex  mb-6">
           <div style="background-image: url(images/Ellipse\ 2.svg); background-repeat: no-repeat; width:60px; height: 60px;">
           
             <img class="mt-5 ml-4" src="images/group 1.svg" alt="">
@@ -533,11 +535,11 @@
         </div>
        </div>
        <!-- Middle image -->
-       <div class="w-96 h-[425px]">
+       <div class=" order-first lg:order-none lg:w-96 h-[425px]">
         <img src="images/whychoose1.png" alt="">
        </div>
-       <!--  -->
-       <div class="mb-10">
+       
+       <div class=" px-2 mb-10">
         <div class="flex mb-6">
           
           <div class="">
